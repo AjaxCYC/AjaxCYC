@@ -29,9 +29,9 @@
   	/*----------------------------------------------------*/
   	$(window).load(function() {
 
-	  	$('#hero-slider').flexslider({
+	  	$('#home-slider').flexslider({
 	   	namespace: "flex-",
-	      controlsContainer: ".hero-container",
+	      controlsContainer: ".home-container",
 	      animation: 'fade',
 	      controlNav: true,
 	      directionNav: false,
@@ -130,7 +130,7 @@
   	------------------------------------------------------ */
   	setTimeout(function() {
 
-   	$('#hero-slider h1').fitText(1, { minFontSize: '30px', maxFontSize: '49px' });
+   	$('#home-slider h1').fitText(1, { minFontSize: '30px', maxFontSize: '49px' });
 
   	}, 100);
 
