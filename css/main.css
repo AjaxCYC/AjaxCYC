@@ -2028,10 +2028,9 @@ ul#nav li.current a:after {
 }
 
 #testimonial-slider p {
-	font: 27px/1.9 "merriweather-bolditalic", sans-serif;
+	font: 27px/1.9 "merriweather-bold", sans-serif;
 	color: #C40C0C;
 	padding: 0;
-	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
 }
 
 #testimonial-slider .testimonial-author {
