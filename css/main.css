@@ -879,7 +879,7 @@ ul#nav li.current a:after {
 
 	/* dropdown nav */
 	#nav-wrap ul#nav {
-		background: #1c212a;
+		background: #C40C0C;
 		padding: 54px 45px 60px 45px;
 		margin: 0;
 		height: auto;
@@ -915,12 +915,12 @@ ul#nav li.current a:after {
 	}
 
 	#nav-wrap ul#nav li a:hover {
-		color: #FFFFFF;
+		color: #e3e3e3;
 	}
 
 	#nav-wrap ul#nav li.current > a {
 		background: none;
-		color: #C40C0C;
+		color: #FFFFFF;
 	}
 
 	#nav-wrap ul#nav li.current > a:after {
