@@ -2164,6 +2164,32 @@ ul#nav li.current a:after {
 	top: -6px;
 }
 
+#contact-social {
+	margin: 30px auto 42px auto;
+	padding: 0;
+	font-size: 38px;
+}
+
+#contact-social li {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	margin-left: 15px;
+}
+
+#contact-social li a {
+	color: #333333;
+}
+
+#contact-social li a:hover {
+	color: #C40C0C;
+};
+
+#contact-social li:first-child {
+	margin-left: 0;
+}
+
+
 /* media queries:  
 /* #contact / .left .right */
 
