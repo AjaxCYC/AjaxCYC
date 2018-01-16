@@ -1768,6 +1768,12 @@ ul#nav li.current a:after {
 	color: #333333;
 }
 
+#team-wrapper .member p {
+	font-size: 13px;
+	line-height: 25px;
+	margin-bottom: auto
+}
+
 #team-wrapper .member-pic {
 	position: relative;
 	line-height: 1;
@@ -1860,9 +1866,9 @@ ul#nav li.current a:after {
 	}
 
 	#team-wrapper .member p {
-		font-size: 12px;
-		line-height: 25px;
-	}
+		font-size: 15px;
+		line-height: 30px;
+	}	
 
 }
 
