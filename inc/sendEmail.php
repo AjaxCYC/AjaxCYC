@@ -47,11 +47,9 @@ if($_POST) {
    if (!$error) {
 
       ini_set("sendmail_from", $siteOwnersEmail); // for windows server
-      $mail = mail($siteOwnersEmail, $subject, $message, $headers);
+      mail($siteOwnersEmail, $subject, $message, $headers) or die("Something went wrong. Please try again.")
+      echo "Thank you!";
 
-		if ($mail) { echo "OK"; }
-      else { echo "Something went wrong. Please try again."; }
-		
 	} # end if - no validation error
 
 	else {
@@ -59,7 +57,7 @@ if($_POST) {
 		$response = (isset($error['name'])) ? $error['name'] . "<br /> \n" : null;
 		$response .= (isset($error['email'])) ? $error['email'] . "<br /> \n" : null;
 		$response .= (isset($error['message'])) ? $error['message'] . "<br />" : null;
-		
+
 		echo $response;
 
 	} # end if - there was a validation error
