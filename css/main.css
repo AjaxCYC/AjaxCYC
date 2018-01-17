@@ -17,7 +17,7 @@ body {
 	background: #C40C0C;
 	font: 16px/30px "merriweather-regular", serif;
 	font-weight: normal;
-	color: #333333;
+	color: #575859;
 }
 
 /* links 
@@ -110,7 +110,7 @@ p img {
 
 p.lead {
 	font: 20px/36px "merriweather-light", serif;
-	color: #333333;
+	color: #707273;
 }
 
 em {
@@ -168,7 +168,7 @@ blockquote cite:before {
 
 blockquote cite a,
 blockquote cite a:visited {
-	color: #333333;
+	color: #707273;
 	border: none;
 }
 
@@ -177,7 +177,7 @@ abbr {
 	font-variant: small-caps;
 	text-transform: lowercase;
 	letter-spacing: .5px;
-	color: #333333;
+	color: #707273;
 }
 
 pre,
@@ -194,7 +194,7 @@ pre {
 code {
 	padding: 3px;
 	background: #ECF0F1;
-	color: #333333;
+	color: #707273;
 	border-radius: 3px;
 }
 
@@ -213,7 +213,7 @@ mark {
 }
 
 hr {
-	border: solid #333333;
+	border: solid #707273;
 	border-width: 1px 0 0;
 	clear: both;
 	margin: 23px 0 12px;
@@ -490,14 +490,14 @@ legend {
 
 label span,
 legend span {
-	color: #333333;
+	color: #575859;
 	font: 16px/30px "raleway-bold", sans-serif;
 }
 
 input[type="checkbox"],
 input[type="radio"] {
 	font-size: 15px;
-	color: #333333;
+	color: #575859;
 }
 
 input[type="checkbox"] {
@@ -2272,7 +2272,7 @@ ul#nav li.current a:after {
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	padding: 0 20px;
-	color: #C40C0C;
+	color: #e64e04;
 }
 
 input[type="text"],
