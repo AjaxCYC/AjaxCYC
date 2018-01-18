@@ -525,33 +525,7 @@
 
          </div> <!-- end team-wrapper -->
 
-      </div> <!-- end row -->
-
-      <div id="call-to-action">	       
-
-		   <div class="row section-ads">
-
-		      <div class="twelve columns">		         		
-
-			      <h2>Sign up for updates!<span></span></h2>
-
-			      <p>
-			      Receive updates about our events, what we're working on, and more - Signing up is simple!
-					<!-- Simply type	the promocode in the box labeled “Promo Code” when placing your order. -->					
-					</p>
-
-					<div class="action">
-						<button id = "open-popup">Sign Up Now</button>
-	         	</div>
-
-			   </div>
-
-		   </div> <!-- end section-ads -->		         	         
-
-	   </div> <!-- end call-to-action -->	           
-
-   </section> <!-- end about -->  
-
+      </div> <!-- end row --> 
 
    <!-- contact
    ================================================== -->
@@ -693,15 +667,7 @@
    <script src="js/jquery.placeholder.min.js"></script>
    <script src="js/jquery.magnific-popup.min.js"></script>  
    <script src="js/main.js"></script>
-	   
-	<script>
-		function showMailingPopUp() {
-		require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us17.list-manage.com","uuid":"51529013b37b763f76c2f9d16","lid":"5f36a9df80"}) })
-		document.cookie = "MCEvilPopupClosed=; expires=Thu, 01 Jan 1970 00:00:00 UTC";
-		};
-
-		document.getElementById("open-popup").onclick = function() {showMailingPopUp()};
-	</script>
-</body>
+	
+	   <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us17.list-manage.com","uuid":"51529013b37b763f76c2f9d16","lid":"5f36a9df80"}) })</script>
 
 </html>
