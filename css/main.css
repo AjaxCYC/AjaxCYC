@@ -1771,7 +1771,8 @@ ul#nav li.current a:after {
 #team-wrapper .member p {
 	font-size: 13px;
 	line-height: 25px;
-	margin-bottom: auto
+	margin-bottom: auto;
+	text-align: justify;
 }
 
 #team-wrapper .member-pic {
@@ -1895,7 +1896,7 @@ ul#nav li.current a:after {
 
 #call-to-action .section-ads {
 	padding-top: 36px;
-	border-top: 1px dotted rgba(150, 150, 150, 0.1);
+	border-top: 1px solid #333333;
 }
 
 #call-to-action h2 {
