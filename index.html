@@ -30,6 +30,20 @@
 	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 	
+	<!-- MAILCHIMP MODAL FORM -->
+	 <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
+
+	<script>
+	function showMailingPopUp() {
+		require(["mojo/signup-forms/Loader"], function(L) {
+			  L.start({"baseUrl":"mc.us17.list-manage.com","uuid":"51529013b37b763f76c2f9d16",
+			  "lid":"5f36a9df80"
+			}) 
+		 })
+		 document.cookie = "MCEvilPopupClosed=; expires=Thu, 01 Jan 1970 00:00:00 UTC";
+	 };
+	 </script>
+	
 </head>
 
 <body>
@@ -541,8 +555,7 @@
 					</p>
 
 					<div class="action">
-			         <a href="" >Sign Up Now</a>
-						<button id = "open-popup">Sign Up Now</button>
+					<a href="#" id="open-mc-popup" onclick="showMailingPopUp(); return false;">Sign Up Now</a>
 	         	</div>
 
 				  
