@@ -1479,7 +1479,7 @@ ul#nav li.current a:after {
 
 .popup-modal .description-box p {
 	font: 14px/24px "merriweather-regular", serif;
-	color: #A1A1A1;
+	color: #333333;
 	margin-bottom: 12px;
 }
 
@@ -1497,7 +1497,7 @@ ul#nav li.current a:after {
 .popup-modal .link-box {
 	width: 100%;
 	overflow: hidden;
-	background: #000000;
+	background: #333333;
 }
 
 .popup-modal .link-box a {
@@ -1523,7 +1523,7 @@ ul#nav li.current a:after {
 
 .popup-modal .link-box a:hover {
 	background: #C40C0C;
-	color: #000000;
+	color: #FFFFFF;
 	border: none;
 }
 
@@ -1713,6 +1713,10 @@ ul#nav li.current a:after {
 	letter-spacing: 0;
 	padding: 0;
 	margin-bottom: 6px;
+}
+
+#about p span {
+	font: 18px/36px "raleway-bold", sans-serif;
 }
 
 /* process
