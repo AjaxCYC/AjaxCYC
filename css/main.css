@@ -1475,6 +1475,13 @@ ul#nav li.current a:after {
 .popup-modal .description-box h4 {
 	font: 15px/24px "raleway-heavy", sans-serif;
 	color: #000000;
+	margin-bottom: -7px;
+}
+
+.popup-modal .description-box h7 {
+	margin-top: -7px;
+	font: 13px/24px "raleway-medium", sans-serif;
+	color: #333333;
 }
 
 .popup-modal .description-box p {
