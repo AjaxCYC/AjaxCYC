@@ -217,13 +217,6 @@ th {
 	padding: 0;
 }
 
-/*
-/* Basic Setup Styles - Top Elements 
-/* =================================================================== */
-
-/* NOTE
-html is set to 62.5% so that if you use REMS, all the measurements 
-are based on 10px sizing. So basically 1.5rem = 15px  */
 html {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -249,11 +242,6 @@ body {
 	line-height: 1;
 	text-rendering: optimizeLegibility;
 }
-
-
-/*
-/* Typography 
-====================================================================== */
 
 div,
 dl,
@@ -351,8 +339,6 @@ ol ul {
 	margin: 3px 0 3px 17px;
 }
 
-/* links
----------------------------------------------------------------------- */
 a {
 	text-decoration: none;
 	line-height: inherit;
@@ -371,10 +357,6 @@ p a:visited {
 	line-height: inherit;
 }
 
-/* 
-/* Media 
-/* =================================================================== */
-
 img,
 video,
 embed,
@@ -391,10 +373,6 @@ embed {
 img {
 	-ms-interpolation-mode: bicubic;
 }
-
-/* 
-/* Grid
-===================================================================== */
 
 .row {
 	width: 94%;
@@ -512,8 +490,6 @@ img {
 	width: 100%;
 }
 
-/* small screens
---------------------------------------------------------------- */
 @media screen and (max-width:1024px) {
 	.row .row {
 		margin-left: -18px;
@@ -527,8 +503,6 @@ img {
 
 }
 
-/* tablets
---------------------------------------------------------------- */
 @media screen and (max-width:768px) {
 	.row {
 		width: auto;
@@ -580,8 +554,7 @@ img {
 
 }
 
-/* large mobile devices
---------------------------------------------------------------- */
+
 @media screen and (max-width:600px) {
 	.row {
 		padding-left: 25px;
@@ -620,8 +593,6 @@ img {
 
 }
 
-/* small mobile devices
---------------------------------------------------------------- */
 @media screen and (max-width:400px) {
 	.row {
 		padding-left: 30px;
@@ -651,9 +622,6 @@ img {
 
 }
 
-/* 
-/* block grids
-===================================================================== */
 .bgrid-sixth .bgrid {
 	width: 16.66667%;
 }
@@ -674,9 +642,6 @@ img {
 	padding: 0;
 }
 
-/* Clearing for block grid columns. Allows columns with 
-different heights to align properly.
---------------------------------------------------------------------- */
 .bgrid-sixth .bgrid:nth-child(6n+1),
 .bgrid-fourth .bgrid:nth-child(4n+1),
 .bgrid-third .bgrid:nth-child(3n+1),
@@ -684,11 +649,8 @@ different heights to align properly.
 	clear: both;
 }
 
-/* small screens
---------------------------------------------------------------- */
 @media screen and (max-width:1024px) {
 
-	/* block grids for small screens */
 	.s-bgrid-sixth .bgrid {
 		width: 16.66667%;
 	}
@@ -723,8 +685,6 @@ different heights to align properly.
 
 }
 
-/* tablets
---------------------------------------------------------------- */
 @media screen and (max-width:768px) {
 	.tab-bgrid-sixth .bgrid {
 		width: 16.66667%;
@@ -760,8 +720,6 @@ different heights to align properly.
 
 }
 
-/* mobile devices
---------------------------------------------------------------- */
 @media screen and (max-width:600px) {
 	.mob-bgrid-sixth .bgrid {
 		width: 16.66667%;
@@ -797,8 +755,6 @@ different heights to align properly.
 
 }
 
-/* stack on small mobile devices
---------------------------------------------------------------- */
 @media screen and (max-width:400px) {
 	.stack .bgrid {
 		width: auto !important;
@@ -810,12 +766,6 @@ different heights to align properly.
 
 }
 
-/* 
-/* MISC
-===================================================================== */
-
-/* Clearing - (http://nicolasgallagher.com/micro-clearfix-hack/
---------------------------------------------------------------------- */
 .group:before,
 .group:after {
 	content: "";
@@ -826,8 +776,6 @@ different heights to align properly.
 	clear: both;
 }
 
-/* Misc Helper Styles 
---------------------------------------------------------------------- */
 .hide {
 	display: none;
 }
