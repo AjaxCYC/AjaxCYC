@@ -1439,6 +1439,10 @@ ul#nav li.current a:after {
 	transition: all 0.3s ease-in-out;
 }
 
+#modal-01 .link-box #register-button {
+	cursor: not-allowed; 
+}
+
 .popup-modal .link-box a:first-child {
 	border-right: 1px solid rgba(200, 200, 200, 0.1);
 }
