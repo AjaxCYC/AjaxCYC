@@ -1439,7 +1439,7 @@ ul#nav li.current a:after {
 	transition: all 0.3s ease-in-out;
 }
 
-#modal-01 .link-box #register-button {
+#block-register-button {
 	cursor: not-allowed; 
 }
 
